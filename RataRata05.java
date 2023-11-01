@@ -10,6 +10,7 @@ public class RataRata05 {
         int nilaiTerendah = 100;
         int mahasiswaLulus = 0;
         int mahasiswaTidakLulus = 0;
+      
 
         for (int i = 0; i < nilaiAkhir.length; i++) {
             System.out.print("Masukkan nilai akhir mahasiswa ke-" + (i + 1) + " : ");
@@ -31,7 +32,7 @@ public class RataRata05 {
             }
         }
 
-        double rataRata = (double) totalNilai / nilaiAkhir.length;
+         double rataRata = (double) totalNilai / nilaiAkhir.length;
 
         System.out.println("Nilai rata-rata: " + rataRata);
         System.out.println("Nilai tertinggi: " + nilaiTertinggi);
