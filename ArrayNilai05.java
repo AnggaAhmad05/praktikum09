@@ -19,6 +19,7 @@ public class ArrayNilai05 {
 
             }
         }
+        sc.close();
 }
     
 }
