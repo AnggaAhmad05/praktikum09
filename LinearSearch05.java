@@ -10,7 +10,7 @@ public class LinearSearch05 {
 
         System.out.print("Masukan jumlah element Array : ");
         element = sc.nextInt();
-        int[] arrayInt= new int[element];
+        int[] arrayInt= new int[element];;
 
 
         for(int i = 0; i < arrayInt.length; i++){
